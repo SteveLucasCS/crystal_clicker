@@ -1,0 +1,97 @@
+
+body {
+  padding: 0.5rem;
+
+  background-color: #99D6DB;
+}
+
+.width-50 {
+  width: 50%;
+  background-color: white;
+}
+h1 {
+  background-color: #CF6A23;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 1rem 0.5rem;
+  width: 50%;
+  box-sizing: border-box;
+  text-align: center;
+}
+#instructions  {
+  background-color:#FFE3C6;
+  color: #037C7E;
+  width: 50%;
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+p {
+  padding: .75rem 1rem;
+}
+
+h2, h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#goal-container {
+  background-color: #3CB374;
+  width: 29.5%;
+  display: inline-block;
+  height: 8rem;
+  float: left;
+  margin-right: .5%;
+}
+
+#win-loss-container {
+  background-color: #02FEFF;
+  width: 20%;
+  display: inline-block;
+  height: 8rem;
+}
+
+#crystal-container { 
+  margin: 0.5rem auto;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  background-color: white;
+
+}
+button {
+  height: 5rem;
+  width: 5rem;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+}
+button:hover {
+  cursor: pointer;
+}
+#blue {
+  background-image: url(blue.png);
+}
+#green {
+  background-image: url(green.png);
+}
+#red {
+  background-image: url(red.png);
+}
+#yellow {
+  background-image: url(yellow.png);
+}
+#score-container {
+  background-color: #037C7E;
+  color: white;
+  width: 50%;
+  height: 7rem;
+}
