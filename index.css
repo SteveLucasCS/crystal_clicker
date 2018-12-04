@@ -1,14 +1,18 @@
 
+html {width: 100%;}
 body {
-  padding: 0.5rem;
-
+  padding: 0;
   background-color: #99D6DB;
+  width: 100%;
 }
 
-.width-50 {
+.container {
+  margin: auto;
   width: 50%;
   background-color: white;
+  padding: 0.5%;
 }
+
 h1 {
   background-color: #CF6A23;
   display: inline-block;
@@ -16,14 +20,14 @@ h1 {
   font-weight: bold;
   font-size: 2rem;
   padding: 1rem 0.5rem;
-  width: 50%;
+  width: 100%;
   box-sizing: border-box;
   text-align: center;
 }
 #instructions  {
   background-color:#FFE3C6;
   color: #037C7E;
-  width: 50%;
+  width: 100%;
   margin: 0.5rem 0;
   font-size: 1.2rem;
 }
@@ -44,8 +48,9 @@ h3 {
 
 #goal-container {
   background-color: #3CB374;
-  width: 29.5%;
-  display: inline-block;
+  width: 48%;
+  display: block;
+  float: left;
   height: 8rem;
   float: left;
   margin-right: .5%;
@@ -53,8 +58,9 @@ h3 {
 
 #win-loss-container {
   background-color: #02FEFF;
-  width: 20%;
-  display: inline-block;
+  width: 48%;
+  display: block;
+  float: right;
   height: 8rem;
 }
 
@@ -62,7 +68,7 @@ h3 {
   margin: 0.5rem auto;
   display: flex;
   justify-content: space-around;
-  width: 80%;
+  width: 100%;
   background-color: white;
 
 }
@@ -92,6 +98,6 @@ button:hover {
 #score-container {
   background-color: #037C7E;
   color: white;
-  width: 50%;
+  width: 100%;
   height: 7rem;
 }
