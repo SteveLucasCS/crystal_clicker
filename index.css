@@ -102,8 +102,8 @@ button:hover {
   height: 7rem;
 }
 
-@media only screen and (max-width: 990) {
+@media only screen and (max-width: 990px) {
   .container {
-    width: 90%;
+    width: 90% !important;
   }
 }
